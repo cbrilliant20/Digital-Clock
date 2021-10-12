@@ -1,0 +1,45 @@
+body {
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+
+.container {
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 30px;
+}
+
+.clock {
+  width: fit-content;
+  margin: auto;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+#day {
+  color: black;
+  margin: 0 10px;
+}
+
+#hour {
+  color: black;
+  margin: 0 5px;
+}
+
+#minute {
+  color: black;
+  margin: 0 5px;
+}
+#ampm {
+  color: black;
+  margin: 0 10px;
+}
